@@ -18,8 +18,8 @@ function App() {
 
   function getWeather() {
     
-    let weatherUrl = `http://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=c03e180f35f138c9dc954a0e173293c0`
-    let forecastUrl = `http://api.openweathermap.org/data/2.5/forecast?q=${search}&units=metric&appid=c03e180f35f138c9dc954a0e173293c0`
+    let weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=c03e180f35f138c9dc954a0e173293c0`
+    let forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${search}&units=metric&appid=c03e180f35f138c9dc954a0e173293c0`
     
     if (search !== ""){
       fetch(weatherUrl)
