@@ -149,7 +149,7 @@ function App() {
             <h3>{formatDate(day1)}</h3>
             <div className="forecast-temp">{Math.round(forecast.list[3].main.temp)}°C</div>
             <div>{forecast.list[3].weather[0].main}</div>
-            <img src={`https://openweathermap.org/img/wn/${forecast.list[3].weather[0].icon}.png`}/>
+            <img alt="weather condition icon" src={`https://openweathermap.org/img/wn/${forecast.list[3].weather[0].icon}.png`}/>
             <div>Feels Like: {Math.round(forecast.list[3].main.feels_like)}°C</div>
             <div>POP: {((forecast.list[3].pop)*100).toFixed(0)}%</div>
           </div>
@@ -157,7 +157,7 @@ function App() {
             <h3>{formatDate(day2)}</h3>
             <div className="forecast-temp">{Math.round(forecast.list[11].main.temp)}°C</div>
             <div>{forecast.list[11].weather[0].main}</div>
-            <img src={`https://openweathermap.org/img/wn/${forecast.list[11].weather[0].icon}.png`}/>
+            <img alt="weather condition icon" src={`https://openweathermap.org/img/wn/${forecast.list[11].weather[0].icon}.png`}/>
             <div>Feels Like: {Math.round(forecast.list[11].main.feels_like)}°C</div>
             <div>POP: {((forecast.list[11].pop)*100).toFixed(0)}%</div>
           </div>
@@ -165,7 +165,7 @@ function App() {
             <h3>{formatDate(day3)}</h3>
             <div className="forecast-temp">{Math.round(forecast.list[19].main.temp)}°C</div>
             <div>{forecast.list[19].weather[0].main}</div>
-            <img src={`https://openweathermap.org/img/wn/${forecast.list[19].weather[0].icon}.png`}/>
+            <img alt="weather condition icon" src={`https://openweathermap.org/img/wn/${forecast.list[19].weather[0].icon}.png`}/>
             <div>Feels Like: {Math.round(forecast.list[19].main.feels_like)}°C</div>
             <div>POP: {((forecast.list[19].pop)*100).toFixed(0)}%</div>
           </div>
@@ -173,7 +173,7 @@ function App() {
             <h3>{formatDate(day4)}</h3>
             <div className="forecast-temp">{Math.round(forecast.list[27].main.temp)}°C</div>
             <div>{forecast.list[27].weather[0].main}</div>
-            <img src={`https://openweathermap.org/img/wn/${forecast.list[27].weather[0].icon}.png`}/>
+            <img alt="weather condition icon" src={`https://openweathermap.org/img/wn/${forecast.list[27].weather[0].icon}.png`}/>
             <div>Feels Like: {Math.round(forecast.list[27].main.feels_like)}°C</div>
             <div>POP: {((forecast.list[27].pop)*100).toFixed(0)}%</div>
           </div>
@@ -181,7 +181,7 @@ function App() {
             <h3>{formatDate(day5)}</h3>
             <div className="forecast-temp">{Math.round(forecast.list[35].main.temp)}°C</div>
             <div>{forecast.list[35].weather[0].main}</div>
-            <img src={`https://openweathermap.org/img/wn/${forecast.list[35].weather[0].icon}.png`}/>
+            <img alt="weather condition icon" src={`https://openweathermap.org/img/wn/${forecast.list[35].weather[0].icon}.png`}/>
             <div>Feels Like: {Math.round(forecast.list[35].main.feels_like)}°C</div>
             <div>POP: {((forecast.list[35].pop)*100).toFixed(0)}%</div>
           </div>
